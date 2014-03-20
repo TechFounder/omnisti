@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
+ruby '2.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.3'
 gem 'devise', '3.2.1'
 #gem 'simple_form', '~> 2.1.0'
 gem 'annotate', ">=2.5.0"
@@ -37,6 +38,7 @@ end
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'figaro', '0.7.0'
 end
 
 group :doc do
